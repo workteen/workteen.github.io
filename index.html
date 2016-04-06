@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        
+        <title>WorkTeen</title>
+    </head>
+   
+    <body id="large-header" class="large-header">
+        <div id="loading">
+        <div id="loading-center">
+        <div id="loading-center-absolute">
+        <div id="object"></div>
+        </div>
+        </div>
+        </div>
+        <div id="large-header" class="large-header">
+        
+            <canvas id="demo-canvas"></canvas> 
+            <h1 class="main-title">
+                <span>CONNECTING</span> PEOPLE AND OPPORTUNTIES.<br>
+                <button type="button" class="btn btn-default btn-lg" id = "main">DISCOVER</button><br>
+                <button type="button" class="btn btn-default btn-lg" id = "student">FOR STUDENTS</button><br>
+                <button type="button" class="btn btn-default btn-lg" id = "organisation">FOR ORGANISATIONS</button><br>
+            </h1>
+           
+            <footer>
+                    <div class = "left-content">
+                        <a href = "#">  Privacy Policy | </a>
+                        <a href = "#">  About Us | </a>
+                        <a href = "#">  Blog | </a>
+                    </div>
+                    
+                    <div class = "right-content">
+                         <a href = "#"> <span class="fa fa-envelope-o" aria-hidden="true"></span> </a>
+                         <a href = "#"> <span class="fa fa-twitter" aria-hidden="true"></span> </a>
+                         <a href = "#"> <span class="fa fa-instagram" aria-hidden="true"></span> </a>
+                         <a href = "#"> <span class="fa fa-facebook" aria-hidden="true"></span> </a>
+                       
+                    </div>
+                    <div style="clear: both"></div>
+                
+            </footer>
+        </div>
+        
+      
+    </body>
+        <script>
+            $(window).load(function() {
+	           $("#loading-center").click(function() {
+	           $("#loading").fadeOut(500);
+	           })		
+            });
+        </script>
+        <script src="js/TweenLite.min.js"></script>
+		<script src="js/EasePack.min.js"></script>
+		<script src="js/rAF.js"></script>
+		<script src="js/demo-1.js"></script>
+</html>

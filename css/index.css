@@ -1,0 +1,134 @@
+body{
+
+  background: url(index.png),url(index.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+   background: url(index.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.main-title {
+	position: absolute;
+	margin-top:20px;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 45%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+    font-family: 'Open Sans Condensed', sans-serif;  
+    font-size: 50px;
+}
+
+span {
+    font-family: 'Karla', sans-serif;
+    font-size: 57px;
+}
+.menu-nav {
+    color: white;
+}
+.btn-default{
+    color:white;
+    background:transparent;
+    border-color:none;
+    border-radius:4px;
+    font-size: 30px;
+}
+.btn:hover{
+    color:white;
+    background:rgba(0,0,0,0.5)
+}
+#student, #organisation, #main {
+    margin-top: 10px;
+    width: 400px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color:rgba(0,0,0,0.3);
+  font-size: 30px;
+}
+footer > .left-content > a {
+    text-decoration: none;
+    float: left;
+    color: lightgrey;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+footer > .right-content > a {
+    text-decoration: none;
+    float: right;
+    color: lightgrey;
+    margin: 5px;
+    font-size: 20px;
+}
+#loading{
+background-color: #bd4932;
+height: 100%;
+width: 100%;
+position: fixed;
+z-index: 1;
+margin-top: 0px;
+top: 0px;
+}
+#loading-center{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#loading-center-absolute {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 200px;
+	width: 200px;
+	margin-top: -100px;
+	margin-left: -100px;
+}
+#object{
+	width: 80px;
+	height: 80px;
+	background-color: #FFF;
+	-webkit-animation: animate 1s infinite ease-in-out;
+	animation: animate 1s infinite ease-in-out;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 60px;
+}
+@-webkit-keyframes animate {
+  0% { -webkit-transform: perspective(160px); }
+  50% { -webkit-transform: perspective(160px) rotateY(-180deg); }
+  100% { -webkit-transform: perspective(160px) rotateY(-180deg) rotateX(-180deg); }
+}
+
+@keyframes animate {
+  0% { 
+    transform: perspective(160px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(160px) rotateX(0deg) rotateY(0deg); 
+  } 50% { 
+    transform: perspective(160px) rotateX(-180deg) rotateY(0deg);
+    -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(0deg) ;
+  } 100% { 
+    transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
+    -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
+  }
+}
