@@ -15,11 +15,11 @@ body{
 	background-size: cover;
 	background-position: center center;
 	z-index: 1;
-   background: url(index.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url(index.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .main-title {
 	position: absolute;
@@ -27,13 +27,15 @@ body{
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	top: 45%;
-	left: 50%;
-	-webkit-transform: translate3d(-50%,-50%,0);
+    -webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
+	top: 40%;
+	left: 50%;
+	
     font-family: 'Open Sans Condensed', sans-serif;  
     font-size: 50px;
 }
+
 
 span {
     font-family: 'Karla', sans-serif;
@@ -82,33 +84,74 @@ footer > .right-content > a {
     font-size: 20px;
 }
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) 
-and (orientation : portrait) { 
-    .main-title {
-	position: absolute;
-	margin-top:20px;
-	padding: 0;
-	color: #f9f1e9;
-	text-align: center;
-	top: 45%;
-	left: 50%;
-    font-family: 'Open Sans Condensed', sans-serif;  
-    font-size: 50px;
-    }
-    .btn-default{
-    color:white;
-    background:transparent;
-    border-color:none;
-    border-radius:4px;
-    font-size: 25px;
-    }
-    .btn:hover{
-    color:white;
-    background:rgba(0,0,0,0.5)
-    }
-    #student, #organisation, #main {
-    margin-top: 10px;
-    width: 300px;
-    }
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+     .main-title {
+	   position: absolute;
+	   margin-top:20px;
+	   padding: 0;
+	   color: #f9f1e9;
+	   text-align: center;
+       -webkit-transform: translate3d(-50%,-50%,0);
+	   transform: translate3d(-50%,-50%,0);
+	   top: 40%;
+	   left: 50%;
+       font-family: 'Open Sans Condensed', sans-serif;  
+       font-size: 10px;
+}
+     
+
+}
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+	.main-title {
+	   position: absolute;
+	   margin-top:20px;
+	   padding: 0;
+	   color: #f9f1e9;
+	   text-align: center;
+       -webkit-transform: translate3d(-50%,-50%,0);
+	   transform: translate3d(-50%,-50%,0);
+	   top: 40%;
+	   left: 50%;
+       font-family: 'Open Sans Condensed', sans-serif;  
+       font-size: 10px;
+}
+	
  }
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { 
+	.main-title {
+	   position: absolute;
+	   margin-top:20px;
+	   padding: 0;
+	   color: #f9f1e9;
+	   text-align: center;
+       -webkit-transform: translate3d(-50%,-50%,0);
+	   transform: translate3d(-50%,-50%,0);
+	   top: 40%;
+	   left: 50%;
+       font-family: 'Open Sans Condensed', sans-serif;  
+       font-size: 10px;
+}
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+	.main-title {
+	   position: absolute;
+	   margin-top:20px;
+	   padding: 0;
+	   color: #f9f1e9;
+	   text-align: center;
+       -webkit-transform: translate3d(-50%,-50%,0);
+	   transform: translate3d(-50%,-50%,0);
+	   top: 40%;
+	   left: 50%;
+       font-family: 'Open Sans Condensed', sans-serif;  
+       font-size: 10px;
+}
+    	
+}
