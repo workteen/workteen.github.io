@@ -83,26 +83,10 @@ footer > .right-content > a {
     margin: 5px;
     font-size: 20px;
 }
-/*@media only screen 
+@media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  { 
-     .main-title {
-	   position: relative;
-	   margin-top:20px;
-	   padding: 0;
-	   color: #f9f1e9;
-	   text-align: center;
-       -webkit-transform: translate3d(-50%,-50%,0);
-	   transform: translate3d(-50%,-50%,0);
-	   top: 40%;
-	   left: 50%;
-       font-family: 'Open Sans Condensed', sans-serif;  
-       font-size: 30px;
-    }
-    span {
-       font-family: 'Karla', sans-serif;
-       font-size: 40px;
-    }
+   
     footer {
         margin-top: 10px;
         position: relative;
@@ -118,23 +102,7 @@ and (max-device-width : 1024px)  {
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
-	.main-title {
-	   position: relative;
-	   margin-top:20px;
-	   padding: 0;
-	   color: #f9f1e9;
-	   text-align: center;
-       -webkit-transform: translate3d(-50%,-50%,0);
-	   transform: translate3d(-50%,-50%,0);
-	   top: 40%;
-	   left: 50%;
-       font-family: 'Open Sans Condensed', sans-serif;  
-       font-size: 30px;
-}
-    span {
-       font-family: 'Karla', sans-serif;
-       font-size: 40px;
-    }
+
     footer {
         margin-top: 10px;
         position: relative;
@@ -149,23 +117,7 @@ and (max-device-width : 667px) {
 @media only screen 
 and (min-device-width : 414px) 
 and (max-device-width : 736px) { 
-	.main-title {
-	   position: relative;
-	   margin-top:20px;
-	   padding: 0;
-	   color: #f9f1e9;
-	   text-align: center;
-       -webkit-transform: translate3d(-50%,-50%,0);
-	   transform: translate3d(-50%,-50%,0);
-	   top: 40%;
-	   left: 50%;
-       font-family: 'Open Sans Condensed', sans-serif;  
-       font-size: 30px;
-}
-    span {
-        font-family: 'Karla', sans-serif;
-        font-size: 40px;
-    }
+	
     footer {
         margin-top: 10px;
         position: relative;
@@ -179,23 +131,7 @@ and (max-device-width : 736px) {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) { 
-	.main-title {
-	   position: relative;
-	   margin-top:20px;
-	   padding: 0;
-	   color: #f9f1e9;
-	   text-align: center;
-       -webkit-transform: translate3d(-50%,-50%,0);
-	   transform: translate3d(-50%,-50%,0);
-	   top: 40%;
-	   left: 50%;
-       font-family: 'Open Sans Condensed', sans-serif;  
-       font-size: 30px;
-}      
-     span {
-        font-family: 'Karla', sans-serif;
-         font-size: 40px;
-    }
+	
     footer {
         margin-top: 10px;
         position: relative;
@@ -206,4 +142,4 @@ and (max-device-width : 568px) {
         font-size: 30px;
     }
     	
-}*/
+}
