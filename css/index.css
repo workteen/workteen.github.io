@@ -23,15 +23,17 @@ body {
 	
 }
 .connect {
-        font-family: 'Karla', sans-serif;
-        font-size: 78px;
-        color: #fff;
-    }
+  font-family: 'Karla', sans-serif;
+  font-size: 78px;
+  color: #fff;
+  text-align: center;
+}
 /* Main page content ends */
 .opportunities {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 73px;
 	color: #fff;	
+  text-align: center;
 }
 
 h5{ 
