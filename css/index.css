@@ -100,8 +100,8 @@ and (max-device-width : 1024px)  {
        font-size: 30px;
     }
     span {
-    font-family: 'Karla', sans-serif;
-    font-size: 40px;
+       font-family: 'Karla', sans-serif;
+       font-size: 40px;
     }
      
 
@@ -122,10 +122,10 @@ and (max-device-width : 667px) {
        font-family: 'Open Sans Condensed', sans-serif;  
        font-size: 30px;
 }
-        span {
-            font-family: 'Karla', sans-serif;
-            font-size: 40px;
-        }
+    span {
+       font-family: 'Karla', sans-serif;
+       font-size: 40px;
+    }
 	
  }
 @media only screen 
@@ -143,9 +143,10 @@ and (max-device-width : 736px) {
 	   left: 50%;
        font-family: 'Open Sans Condensed', sans-serif;  
        font-size: 30px;
-}span {
-    font-family: 'Karla', sans-serif;
-    font-size: 40px;
+}
+    span {
+        font-family: 'Karla', sans-serif;
+        font-size: 40px;
     }
 }
 @media only screen 
@@ -163,9 +164,10 @@ and (max-device-width : 568px) {
 	   left: 50%;
        font-family: 'Open Sans Condensed', sans-serif;  
        font-size: 30px;
-}span {
-    font-family: 'Karla', sans-serif;
-    font-size: 40px;
+}      
+     span {
+        font-family: 'Karla', sans-serif;
+         font-size: 40px;
     }
     	
 }
