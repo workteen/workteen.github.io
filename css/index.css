@@ -90,13 +90,26 @@ footer > .right-content > a {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) { 
-  footer {
+footer {
   position: relative;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
   background-color:rgba(0,0,0,1);
   font-size: 30px;
+}
+.connect {
+  font-family: 'Karla', sans-serif;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+/* Main page content ends */
+.opportunities {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 48px;
+  color: #fff;  
+  text-align: center;
 }
 }
 
