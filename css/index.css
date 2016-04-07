@@ -98,6 +98,13 @@ footer {
   background-color:rgba(0,0,0,1);
   font-size: 30px;
 }
+footer > .right-content > a {
+    text-decoration: none;
+    float: left;
+    color: lightgrey;
+    margin: 5px;
+    font-size: 20px;
+}
 .connect {
   font-family: 'Karla', sans-serif;
   font-size: 50px;
