@@ -37,10 +37,10 @@ body{
 }
 
 
-span {
-    font-family: 'Karla', sans-serif;
-    font-size: 57px;
-}
+    span {
+        font-family: 'Karla', sans-serif;
+        font-size: 57px;
+    }
 .menu-nav {
     color: white;
 }
@@ -97,8 +97,12 @@ and (max-device-width : 1024px)  {
 	   top: 40%;
 	   left: 50%;
        font-family: 'Open Sans Condensed', sans-serif;  
-       font-size: 10px;
-}
+       font-size: 30px;
+    }
+    span {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    }
      
 
 }
@@ -116,8 +120,12 @@ and (max-device-width : 667px) {
 	   top: 40%;
 	   left: 50%;
        font-family: 'Open Sans Condensed', sans-serif;  
-       font-size: 10px;
+       font-size: 30px;
 }
+        span {
+            font-family: 'Karla', sans-serif;
+            font-size: 40px;
+        }
 	
  }
 @media only screen 
@@ -134,8 +142,11 @@ and (max-device-width : 736px) {
 	   top: 40%;
 	   left: 50%;
        font-family: 'Open Sans Condensed', sans-serif;  
-       font-size: 10px;
-}
+       font-size: 30px;
+}span {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    }
 }
 @media only screen 
 and (min-device-width : 320px) 
@@ -151,7 +162,10 @@ and (max-device-width : 568px) {
 	   top: 40%;
 	   left: 50%;
        font-family: 'Open Sans Condensed', sans-serif;  
-       font-size: 10px;
-}
+       font-size: 30px;
+}span {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    }
     	
 }
