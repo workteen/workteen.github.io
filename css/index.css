@@ -8,7 +8,7 @@ body{
 }
 
 .large-header {
-	position: relative;
+	position: absolute;
 	width: 100%;
 	background: #333;
 	overflow: hidden;
@@ -22,7 +22,7 @@ body{
     background-size: cover;
 }
 .main-title {
-	position: absolute;
+	position: relative;
 	margin-top:20px;
 	padding: 0;
 	color: #f9f1e9;
