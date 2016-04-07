@@ -58,7 +58,7 @@ a:hover
 }
 footer {
   
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
@@ -80,6 +80,19 @@ footer > .right-content > a {
     color: lightgrey;
     margin: 5px;
     font-size: 20px;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+{ 
+  footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color:rgba(0,0,0,0);
+  font-size: 30px;
+}
 }
 
 /* Footer Style */
