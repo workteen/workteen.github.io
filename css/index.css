@@ -404,6 +404,24 @@ a:hover
     text-decoration:none; 
     cursor:pointer;  
 }
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+{ 
+.connect {
+  font-family: 'Karla', sans-serif;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+/* Main page content ends */
+.opportunities {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 48px;
+  color: #fff;  
+  text-align: center;
+}
+}
 
 
 /* Footer Style */
