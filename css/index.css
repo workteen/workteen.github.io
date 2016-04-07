@@ -103,6 +103,15 @@ and (max-device-width : 1024px)  {
        font-family: 'Karla', sans-serif;
        font-size: 40px;
     }
+    footer {
+        margin-top: 10px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+  /* Set the fixed height of the footer here */
+        background-color:rgba(0,0,0,0.3);
+        font-size: 30px;
+    }
      
 
 }
@@ -126,6 +135,15 @@ and (max-device-width : 667px) {
        font-family: 'Karla', sans-serif;
        font-size: 40px;
     }
+    footer {
+        margin-top: 10px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+  /* Set the fixed height of the footer here */
+        background-color:rgba(0,0,0,0.3);
+        font-size: 30px;
+    }
 	
  }
 @media only screen 
@@ -148,6 +166,15 @@ and (max-device-width : 736px) {
         font-family: 'Karla', sans-serif;
         font-size: 40px;
     }
+    footer {
+        margin-top: 10px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+  /* Set the fixed height of the footer here */
+        background-color:rgba(0,0,0,0.3);
+        font-size: 30px;
+    }
 }
 @media only screen 
 and (min-device-width : 320px) 
@@ -168,6 +195,15 @@ and (max-device-width : 568px) {
      span {
         font-family: 'Karla', sans-serif;
          font-size: 40px;
+    }
+    footer {
+        margin-top: 10px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+  /* Set the fixed height of the footer here */
+        background-color:rgba(0,0,0,0.3);
+        font-size: 30px;
     }
     	
 }
