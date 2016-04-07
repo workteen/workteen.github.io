@@ -86,11 +86,11 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) 
 { 
   footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  background-color:rgba(0,0,0,0);
+  background-color:rgba(0,0,0,1);
   font-size: 30px;
 }
 }
