@@ -5,7 +5,7 @@
   <link rel="shortcut icon" href="icon.ico">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="CAS Activities in Mumbai. WorkTeen helps IB Students complete Creativity, Action and Service Hours.">
   <meta name="msvalidate.01" content="96A33DEFE5AF86EC9A3322C9E037CF98" />
   <title>WorkTeen | Home</title>
@@ -14,29 +14,61 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script src="js/modernizr.js"></script>
  
 </head>
 <!-- Navigation Bar Code for Login and Sign Up Button -->
 
-<body onload="initialize()">
+<body>
+
+<a href="#cd-nav" class="cd-nav-trigger">Menu 
+    <span class="cd-nav-icon"></span>
+
+    <svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+      <circle fill="transparent" stroke="#656e79" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+    </svg>
+  </a>
   
+  <div id="cd-nav" class="cd-nav">
+    <div class="cd-navigation-wrapper">
+      <div class="cd-half-block">
+        <h2>WorkTeen</h2>
 
-  <!-- Navigation Bar Code ends -->
-<div id="loading">
-<div id="loading-center">
-<div id="loading-center-absolute">
-<div class="object" id="object_one"></div>
-<div class="object" id="object_two"></div>
-<div class="object" id="object_three"></div>
-
-</div>
-</div>
- 
-</div>
+        <nav>
+          <ul class="cd-primary-nav">
+            <li><a href="#0" class="selected">Login</a></li>
+            <li><a href="#0">Sign Up</a></li>
+            <li><a href="#0">About Us</a></li>
+            <li><a href="#0">Blog</a></li>
+            <li><a href="#0">Contact us</a></li>
+          </ul>
+        </nav>
+      </div><!-- .cd-half-block -->
+      
+      <div class="cd-half-block">
+        <address>
+          <ul class="cd-contact-info">
+            <li><a href="mailto:info@myemail.co">opportunities@workteen.org</a></li>
+            <li>
+              <span>Mumbai</span>
+              <span>Bangalore</span>
+              <span>Jaipur</span>
+              <span>Privacy Policy</span>
+            </li>
+          </ul>
+        </address>
+      </div> <!-- .cd-half-block -->
+    </div> <!-- .cd-navigation-wrapper -->
+  </div> <!-- .cd-nav -->
+  
+  
   <!-- Content Code begins -->
+  <main>
   <div class="container">
     <div class="row">
+      
       <span class = "connect">CONNECTING </span> 
       <span class = "opportunities"> PEOPLE AND OPPORTUNITIES </span>
       <div class="btn-group-lg" role="group" aria-label="Opportunities">
@@ -46,36 +78,22 @@
       </div>
     </div>
   </div>
-  <footer class = "container-fluid">
-          <div class = "left-content">
-                <a href = "#">  Privacy Policy | </a>
-                <a href = "#">  About Us | </a>
-                <a href = "#">  Blog | </a>
-          </div>
-          <div class = "right-content">
-                <a href = "#"> <span class="fa fa-envelope-o" aria-hidden="true"></span> </a>
-                <a href = "#"> <span class="fa fa-twitter" aria-hidden="true"></span> </a>
-                <a href = "#"> <span class="fa fa-instagram" aria-hidden="true"></span> </a>
-                <a href = "#"> <span class="fa fa-facebook" aria-hidden="true"></span> </a>
-                       
-          </div>          
-                        
-        <div style="clear: both"></div>         
-  </footer>
+  
+  
+  </main>
+  
 
 
   
    
   
 </body>
+<script src="js/main.js"></script>
 
 
 
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<script type="text/javascript">
- $(window).load(function() {
-   $("#loading").fadeOut(500);
-})
-</script>
+
+
+
 </html>
