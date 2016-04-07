@@ -2,11 +2,15 @@
 	outline: none!important;
 } 
 body { 
+
   background: url(index.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; 
 }
 /* Navigation Bar */
 
@@ -83,8 +87,7 @@ footer > .right-content > a {
 }
 @media only screen 
 and (min-device-width : 320px) 
-and (max-device-width : 480px) 
-{ 
+and (max-device-width : 480px) { 
   footer {
   position: relative;
   bottom: 0;
