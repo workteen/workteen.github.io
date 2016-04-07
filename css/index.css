@@ -1,66 +1,65 @@
-body{
-
-  background: url(index.png),url(index.png) no-repeat center center fixed; 
+*:focus {
+	outline: none!important;
+} 
+body { 
+  background: url(index.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+/* Navigation Bar */
 
-.large-header {
-	position: absolute;
-	width: 100%;
-	background: #333;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-	z-index: 1;
-    background: url(index.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.main-title {
-	position: absolute;
-	margin-top:20px;
-	padding: 0;
-	color: #f9f1e9;
-	text-align: center;
-    -webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
-	top: 40%;
-	left: 40%;
+.row {
+	padding-left: 0 !important;
+   	margin-left: 0 !important;
+	margin-top:16%;
+	background-color: transparent;
+	text-align: center; 
+	margin-bottom: 20px;
 	
-    font-family: 'Open Sans Condensed', sans-serif;  
-    font-size: 50px;
 }
-
-
-    span {
+.connect {
         font-family: 'Karla', sans-serif;
-        font-size: 57px;
+        font-size: 78px;
+        color: #fff;
     }
-.menu-nav {
-    color: white;
+/* Main page content ends */
+.opportunities {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 73px;
+	color: #fff;	
 }
+
+h5{ 
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+}
+/* Ghost Button */
 .btn-default{
-    color:white;
-    background:transparent;
-    border-color:none;
-    border-radius:4px;
-    font-size: 30px;
+
+	background: transparent;
+	width: 300px;
 }
-.btn:hover{
-    color:white;
-    background:rgba(0,0,0,0.5)
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
 }
-#student, #organisation, #main {
-    margin-top: 10px;
-    width: 400px;
+a {
+    color: white;
+    text-decoration: none;
+	margin: 5px;
+}
+
+a:hover 
+{
+    color: white; 
+    text-decoration:none; 
+    cursor:pointer;  
 }
 footer {
-  position: relative;
+  overflow: hidden;
+  position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
@@ -84,3 +83,4 @@ footer > .right-content > a {
     font-size: 20px;
 }
 
+/* Footer Style */
